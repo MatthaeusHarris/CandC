@@ -1,22 +1,23 @@
 {
-	"name": "CandC",
-	"version": "0.0.1",
-	"author": "Matt Harris <matthaeus.harris@gmail.com>",
-	"description": "A framework to add a command and control interface to a Node.js daemon",
-	"repository": {
-		"type": "git",
-		"url": "git@github.com:MatthaeusHarris/CandC.git"
-	},
-	"keywords": [
-		"telnet",
-		"debug",
-		"production"
-	],
-	"dependencies": {
-
-	},
-	"license": "MIT",
-	"engines": {
-		"node": ">=0.8.17"
-	}
+  "name": "CandC",
+  "version": "0.0.1",
+  "author": "Matt Harris <matthaeus.harris@gmail.com>",
+  "description": "A framework to add a command and control interface to a Node.js daemon",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:MatthaeusHarris/CandC.git"
+  },
+  "keywords": [
+    "telnet",
+    "debug",
+    "production"
+  ],
+  "dependencies": {
+    "moment": "~2.0.0"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.8.17"
+  },
+  "main": "./lib/index.js"
 }
